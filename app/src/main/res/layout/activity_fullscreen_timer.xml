@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fullscreenLayout"
+    android:background="#000000"> <!-- Set background color to black -->
+
+    <TextView
+        android:id="@+id/textViewFullscreenTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="64sp"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonFullscreenStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_below="@id/textViewFullscreenTimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonAdjustTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjust Time"
+        android:layout_below="@id/buttonFullscreenStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextAdjustTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Minutes"
+        android:layout_below="@id/buttonAdjustTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

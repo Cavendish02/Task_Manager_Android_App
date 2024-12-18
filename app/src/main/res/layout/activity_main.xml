@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:id="@+id/buttonTaskList"
+        style="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task List"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonCalendar"
+        style="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPromoter"
+        style="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promodoro"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonFocusTime"
+        style="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Focus Time"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        style="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

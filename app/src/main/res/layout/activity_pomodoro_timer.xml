@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25:00"
+        android:textSize="48sp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/buttonStartPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_below="@id/textViewTimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/buttonStartPause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- EditText for adjusting the time -->
+    <EditText
+        android:id="@+id/editTextTimeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter time in minutes"
+        android:inputType="number"
+        android:layout_below="@id/buttonReset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to apply the time change -->
+    <Button
+        android:id="@+id/buttonApplyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply Time"
+        android:layout_below="@id/editTextTimeInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

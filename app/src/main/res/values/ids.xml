@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonTaskList" type="id" />
+    <item name="buttonCalendar" type="id" />
+    <item name="buttonPromoter" type="id" />
+    <item name="buttonFocusTime" type="id" />
+    <item name="buttonSettings" type="id" />
+</resources>
